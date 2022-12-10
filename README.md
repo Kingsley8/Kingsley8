@@ -1,16 +1,19 @@
-### Hi there 👋
 
-<!--
-**Kingsley8/Kingsley8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+import SoftwareDeveloper from 'kingsley';
+import { Languages, Frameworks } from 'kingsley/skills';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Kingsley Khoo';
+  title    = 'Software Developer';
+  location = 'MY';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['PHP','JavaScript', 'C', , ...Languages];
+  databases  = ['MySQL', 'Amazon RDS', 'MongoDB'];
+  frameworks = ['Laravel', 'React', 'Next.js', 'Vue', 'Flutter', ...Frameworks];
+}
+
+```
+
