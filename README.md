@@ -1,7 +1,7 @@
 
 ```javascript
-import SoftwareDeveloper from 'kingsley';
-import { Languages, Frameworks } from 'kingsley/skills';
+import SoftwareDeveloper from 'Kingsley';
+import { Languages, Frameworks } from 'Kingsley/skills';
 
 class Bio extends SoftwareDeveloper {
   name     = 'Kingsley Khoo';
